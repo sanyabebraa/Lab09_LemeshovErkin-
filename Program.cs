@@ -21,17 +21,17 @@ using System.ComponentModel.Design.Serialization;
 using System.Runtime.Serialization.Formatters;
 using System.Text.RegularExpressions;
 
-//int score = 0;
-//for (int ticket = 19; ticket <= 30; ticket++)
-//{
-//if (ticket == 4 || ticket == 12 || ticket == 19)
-//{
-// score++;
-// continue;
-//}
-//System.Console.WriteLine($"Первый доступный билет: {ticket},{score}");
-//break;
-//}
+int score = 0;
+for (int ticket = 19; ticket <= 30; ticket++)
+{
+if (ticket == 4 || ticket == 12 || ticket == 19)
+{
+ score++;
+ continue;
+}
+System.Console.WriteLine($"Первый доступный билет: {ticket},{score}");
+break;
+}
 //for (; ; )
 //{
 //System.Console.WriteLine("Введите код группы ( для выхода - 'выход'): ");
